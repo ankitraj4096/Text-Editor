@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.toolbar {
+    background: #2d2d2d;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.toolbar button, .toolbar select {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+
+.toolbar button:hover, .toolbar button.active {
+    background: #007BFF;
+    color: white;
+    border-color: #007BFF;
+}
+
+.toolbar select {
+    padding: 8px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+.editor {
+    width: 80%;
+    height: 400px;
+    background: #2d2d2d;
+    border: 1px solid #444;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.editor:focus {
+    border: 2px solid #007BFF;
+    outline: none;
+    background-color: #3a3a3a;
+}
